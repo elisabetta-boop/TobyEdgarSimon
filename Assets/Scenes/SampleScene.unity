@@ -1219,12 +1219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 958d128a72247de4391bf4c3d5112600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPoints:
-  - {fileID: 1366214812}
-  - {fileID: 2017990137}
-  - {fileID: 1676928788}
-  - {fileID: 1131224393}
-  indexNextDestination: 0
+  player: {fileID: 1692285292}
 --- !u!195 &1085830916
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1918,7 +1913,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1850259568
 BoxCollider:
@@ -2030,7 +2025,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!208 &1890325913
 NavMeshObstacle:
